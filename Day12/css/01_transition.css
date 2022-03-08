@@ -24,6 +24,7 @@
 .transition3 { transition: width 1s, height 2s; }
 .transition3:hover { width: 800px; height: 400px; }
 
+
 .transition4,
 .transition5,
 .transition6,
@@ -43,31 +44,31 @@
 }
 
 .transition4 {
-    /* linear : 일정한 속도 변환 */
+    /* linear   :  일정한 속도 변환 */
     transition-timing-function: linear;
     transition-duration: 3s;
 }
 
 .transition5 {
-    /* ease : 처음에는 아주 빠르고 마지막에 느려짐 */
+    /* ease   :  처음에는 아주 빠르고 마지막에 느려짐 */
     transition-timing-function: ease;
     transition-duration: 3s;
 }
 
 .transition6 {
-    /* ease-in : 천천히 가다가 마지막에 조금 빨라짐 */
+    /* ease-in   :  천천히 가다가 마지막에 조금 빨라짐 */
     transition-timing-function: ease-in;
     transition-duration: 3s;
 }
 
 .transition7 {
-    /* ease-out : 약간 일정하게 가다가 마지막에 느려짐 */
+    /* ease-out   :  약간 일정하게 가다가 마지막에 느려짐 */
     transition-timing-function: ease-out;
     transition-duration: 3s;
 }
 
 .transition8 {
-    /* ease-in-out : 느리게 가다가 중간에 빨라지다 마지막에 다시 느려짐 */
+    /* ease-in-out   :  느리게 가다가 중간에 빨라지다가 마자막에 다시 느려짐 */
     transition-timing-function: ease-in-out;
     transition-duration: 3s;
 }
@@ -75,13 +76,14 @@
 .transition9 {
     width: 200px;
     height: 200px;
-    background-color: blueviolet;
+    background-color: coral;
 
     transition-delay: 3s;
     transition-duration: 2s;
 }
 
 .transition9:hover { width: 1000px; }
+
 
 .transition10 {
     width: 200px;
@@ -91,8 +93,7 @@
     transition-duration: 3s;
 
     /* 3차 베지어 곡선을 이용한 변환 속도를 지정하는 함수 */
-    transition-timing-function: cubic-bezier(.08,.86,.75,.53);
+    transition-timing-function: cubic-bezier(.15,.92,.83,.12);
 }
 
 .transition10:hover { width: 1400px; }
-
